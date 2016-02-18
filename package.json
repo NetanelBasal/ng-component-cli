@@ -1,15 +1,15 @@
 {
   "name": "ng-component-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "angular es6 component template generator",
   "main": "ngComp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/NetanelBasal/angular-es6-templates",
+  "homepage": "https://github.com/NetanelBasal/ng-component-cli",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NetanelBasal/angular-es6-templates.git"
+    "url": "https://github.com/NetanelBasal/ng-component-cli"
   },
   "author": "Netanel Basal <netanel7799@gmail.com>",
   "license": "ISC",
