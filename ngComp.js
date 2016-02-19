@@ -83,6 +83,10 @@ function genreateModule(answers) {
         return;
       }
 
+      if (template.indexOf('directive') > -1) {
+        return;
+      }
+
       filePath = path.join(folderPath, fileName);
 
       fs.outputFile(filePath, compiled, function(err) {
