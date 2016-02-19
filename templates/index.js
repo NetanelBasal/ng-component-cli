@@ -1,7 +1,7 @@
 require('./{{name}}.scss');
 
 import {{name | camelCaseSnake}}Controller from './{{name}}.controller.js';
-import {{name | camelCaseSnake}} from './{{name}}.component.js';
+import {{name | snakeToCamelCase}} from './{{name}}.component.js';
 
 export default (app) => {
   app.controller('{{name | camelCaseSnake}}Controller', {{name | camelCaseSnake}}Controller);
