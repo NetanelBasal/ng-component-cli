@@ -1,4 +1,4 @@
-require('./{{name}}.scss');
+require('./_{{name}}.scss');
 
 import {{name | camelCaseSnake}}Controller from './{{name}}.controller.js';
 import {{name | snakeToCamelCase}} from './{{name}}.component.js';
