@@ -1,4 +1,4 @@
-require('./main-nav.scss');
+require('./_main-nav.scss');
 
 import MainNavController from './main-nav.controller.js';
 import mainNav from './main-nav.component.js';

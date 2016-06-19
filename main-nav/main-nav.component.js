@@ -1,8 +1,6 @@
 // @ngInject
 export default {
     controller: 'MainNavController',
-    bindings: {
-      name: '='
-    },
-    template: require('./main-nav.html')
+    bindings: {},
+    template: require('./main-nav.component.html')
 }

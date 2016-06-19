@@ -12,6 +12,10 @@ swig.setFilter('camelCaseSnake', function(input, idx) {
   return _.capitalize(_.camelCase(input));
 });
 
+swig.setFilter('onlyCamelCase', function(input, idx) {
+  return _.camelCase(input);
+});
+
 swig.setFilter('snakeToCamelCase', function(input, idx) {
   return _.camelCase(input);
 });

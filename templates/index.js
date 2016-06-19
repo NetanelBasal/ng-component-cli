@@ -5,5 +5,5 @@ import {{name | snakeToCamelCase}} from './{{name}}.component.js';
 
 export default (app) => {
   app.controller('{{name | camelCaseSnake}}Controller', {{name | camelCaseSnake}}Controller);
-  app.component('{{name | snakeToCamelCase}}', {{name | snakeToCamelCase}});
+  app.component('{{name | onlyCamelCase}}', {{name | snakeToCamelCase}});
 }

@@ -1,6 +1,6 @@
 {
   "name": "ng-component-cli",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "angular es6 component template generator",
   "main": "ngComp.js",
   "scripts": {
