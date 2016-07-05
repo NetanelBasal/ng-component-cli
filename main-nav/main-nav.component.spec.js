@@ -9,7 +9,7 @@ describe('component: main-nav', function () {
   }));
 
   it('should be defined', function () {
-    component = $componentController('main-nav');
+    component = $componentController('mainNav');
     expect(component).toBeDefined;
   });
 

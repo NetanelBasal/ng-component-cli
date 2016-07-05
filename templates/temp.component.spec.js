@@ -9,7 +9,7 @@ describe('component: {{name}}', function () {
   }));
 
   it('should be defined', function () {
-    component = $componentController('{{name}}');
+    component = $componentController('{{name | onlyCamelCase}}');
     expect(component).toBeDefined;
   });
 
